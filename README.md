@@ -1,23 +1,21 @@
-# ai-cybersecurity-threat-detector
- An AI-powered tool to detect phishing and cyber threats using ML
 
+# AI-Powered Cybersecurity Threat Detector 🔒
 
-# 🔐 AI-Powered Cybersecurity Threat Detector
+A machine learning-based web app to detect phishing websites using 30+ web features.
 
-This Streamlit web app detects whether a website is **Phishing** or **Legitimate** based on 30 key features. Built using a machine learning model (Random Forest).
+## 🔍 Features
+- Detects phishing websites in real-time
+- Built using Streamlit
+- Trained with Random Forest classifier
 
-## 🚀 Features
-- Real-time phishing detection
-- Confidence score display
-- Trained on phishing datasets
+## 🛠️ Tech Stack
+- Python
+- Streamlit
+- Scikit-learn
+- Pandas
+- NumPy
 
-## 📁 Folder Structure
-- `app.py` – Streamlit frontend
-- `models/` – Contains `best_model.pkl`
-- `Training/` – Training script
-- `Evaluation/` – Evaluation script
-- `data/` – Cleaned phishing dataset
-
-## ▶️ Run App Locally
+## 🚀 How to Run
 ```bash
+pip install -r requirements.txt
 streamlit run c:\Users\KIIT\Documents\GitHub\ai-cybersecurity-threat-detector\app.py
